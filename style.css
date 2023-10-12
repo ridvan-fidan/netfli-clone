@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-image{
+    background-image:linear-gradient(black,rgba(0, 0, 0, 0.451)), url("img/arkaplan.jpg");
+    height: 700px;
+}
+
+body{
+    background-color: #555;
+}
+
+.containers{
+    padding-inline: 10%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.p-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.height{
+    height: 500px;
+}
+
+.baslik{
+    font-size: 55px;
+}
+
+.mt-6{
+    margin: auto;
+    margin-top: 85px;
+}
+
+.w-13{
+    width: 13%;
+}
